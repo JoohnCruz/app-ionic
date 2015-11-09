@@ -15,11 +15,11 @@ angular.module('starter.login', [])
    		console.log('trace - login success');
 	}
 
-
 	function loginError(data){
-		var alertPopup = $ionicPopup.alert({
-	            	    title: 'Falha ao Conectar!',
-	            	    template: 'Verifique seu usuario e senha!'
+		var alertPopup =
+			$ionicPopup.alert({
+	            title: 'Falha ao Conectar!',
+	            template: 'Verifique seu usuario e senha!'
 	   	});
 	}
 })
